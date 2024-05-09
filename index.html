@@ -3,12 +3,119 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--favicon-->
+        <link rel="stylesheet" href="./styles/index.css">
+        <script src="https://kit.fontawesome.com/cdf4549b51.js" crossorigin="anonymous"></script>
         <title>Aaron Soliz</title>
     </head>
     <body>
-        <h1>Aaron Soliz</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio explicabo, molestiae quos ex ducimus ipsa minus ab dolore laboriosam deserunt saepe quidem! In nesciunt ipsum rerum laborum voluptatibus eius eaque.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, possimus. Quisquam neque ratione at eius reprehenderit aliquid placeat numquam explicabo et similique, veniam repellat in quam magnam ut perferendis quos.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A magni voluptates assumenda, ducimus vel iure ut autem reiciendis, reprehenderit similique laborum illo quis esse. Tempora excepturi accusantium similique pariatur cupiditate.</p>
+        <header>
+            <div class="header-container">
+                <!--Name and occupation-->
+                <div class="header-box" id="header-box1">
+                    <h1>Aaron Soliz</h1>
+                    <h3>Software Developer</h3>
+                </div>
+                <!--Date and time-->
+                <div class="header-box" id="header-box2">
+                    <p>00:00:00 PST</p>
+                    <p>DD/MM/YYYY</p>
+                </div>
+            </div>
+            <!--Navbar-->
+            <div class="navbar-container">
+                <nav class="navbar">
+                    <ul>
+                        <li class="menu-box"><a href="#" id="active" title="Home">Home</a></li>
+                        <li class="menu-box"><a href="pages/about.html" title="About">About</a></li>
+                        <li class="menu-box"><a href="pages/projects.html" title="Projects">Projects</a></li>
+                        <li class="menu-box"><a href="pages/contact.html" title="Contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!--intro-->
+            <div id="intro">
+                <div class="intro-container">
+                    <div class="intro-box" id="intro-box1">
+                        <img src="images/sample-profile-icon.png" title="Aaron Soliz" alt="This is a photo of me">
+                    </div>
+                    <div class="intro-box" id="intro-box2">
+                        <p>Hello there.</p>
+                        <p>I am an aspiring software developer from Sacramento, California. After I graduated from California State University of Sacramento with a Bachelor's degree in Computer Engineering, I have been working on beginning my journey in Front-End development. Here's my portfolio of some of my work.</p>
+                    </div>
+                </div>
+            </div>
+            <!--projects-->
+            <div id="projects">
+                <h3>PROJECTS</h3>
+                <p><i class="fa-brands fa-github fa-lg"></i>See more on my GitHub: <a href="https://github.com/Aaron-Sol1z" title="GitHub">GitHub</a></p>
+            </div>
+            <!--skills-->
+            <div id="skills">
+                <h3>SKILLS</h3>
+                <div class="skills-container">
+                    <div class="skills-box" id="skills-box1">
+                        <p>These are some of the things that I have learned</p>
+                    </div>
+                    <div class="skills-box" id="skills-box2">
+                        <h4>Hard Skills</h4>
+                        <ul>
+                            <li><i class="fa-brands fa-java fa-lg"></i> Java</li>
+                            <li><i class="fa-brands fa-html5 fa-lg"></i> HTML5</li>
+                            <li><i class="fa-brands fa-css3 fa-lg"></i> CSS</li>
+                            <li><i class="fa-brands fa-js fa-lg"></i> JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--education-->
+            <div id="education">
+                <!--college degree-->
+                <h3>EDUCATION</h3>
+                <div class="education-container">
+                    <div class="education-box" id="education-box1">
+                        <p>California State University, Sacramento</p>
+                        <p>Bachelor of Computer Science, May 2023</p>
+                        <p>G.P.A. 3.616 Cum Laude</p>
+                    </div>
+                    <div class="education-box" id="education-box2">
+                        <ul>
+                            <li>Exposure to agile development methodology</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--certificates-->
+                <h3>CERTIFICATES</h3>
+                <div class="certificates-container">
+                    <div class="certificates-box" id="certificates-box1">
+                        <p>IBM Back-End Development by IBM on Coursera</p>
+                    </div>
+                    <div class="certificates-box" id="certificates-box2">
+                        <ul>
+                            <li>Experience in version control</li>
+                            <li>Experience in basic HTTP request methods </li>
+                            <li>Exposure to Bootstrap, Docker, and Kubernetes</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <!--contact-->
+            <div id="contact">
+                <h3>CONTACT</h3>
+                <p><i class="fa-solid fa-phone fa-lg"></i>1-916-802-7596</p>
+                <p><i class="fa-solid fa-envelope fa-lg"></i>Email: aaronsoliz99@gmail.com</p>
+                <i class="fa-brands fa-linkedin fa-lg"></i><a href="https://www.linkedin.com/in/aaron-soliz-b78841290/" title="LinkedIn">LinkedIn: Aaron Soliz</a>
+            </div>
+        </main>
+        <!--footer-->
+        <footer>
+            <hr>
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> Aaron Soliz</p>
+            <small><a href="mailto:aaronsoliz99@gmail.com" title="Email me">aaronsoliz99@gmail.com</a></small><br>
+            <a href="https://www.linkedin.com/in/aaron-soliz-b78841290/" title="LinkedIn"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+            <a href="https://github.com/Aaron-Sol1z" title="GitHub"><i class="fa-brands fa-github fa-lg"></i></a>
+        </footer>
     </body>
 </html>

@@ -1,0 +1,125 @@
+/*Color schemes
+Blue Ribbon: #1463F3 (royal blue)
+Shark: #1D2023 (black)
+Ghost: #CCD0D8 (gray)
+Malibu: #84A4FC (light blue)
+*/
+:root{
+    --blue-ribbon: #1463F3;
+    --shark: #1D2023;
+    --ghost: #CCD0D8;
+    --malibu: #84A4FC;
+}
+body{
+    
+    background-color: var(--ghost);
+    margin: 0;
+    padding: 0;
+    font-family: century;
+}
+/***header***/
+header{
+    background-color: var(--malibu);
+    margin: 0;
+}
+/*top banner*/
+.header-container{
+    display: flex;
+    flex-direction: row;
+}
+.header-box{
+    width: 50%;
+}
+#header-box1{
+    font-size: 1.5em;
+    padding-left: 15px;
+}
+#header-box2{
+    justify-content: center;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2em;
+}
+/*navbar*/
+
+.navbar-container{
+    background-color: var(--shark);
+    height: 70px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+.navbar-container .navbar{
+    justify-content: space-around;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar-container .navbar ul li{
+    padding: 10px;
+    margin: 0 20px;
+}
+.menu-box{
+    border-bottom: 3px solid var(--blue-ribbon);
+    border-radius: 0px;
+}
+.navbar a{
+    color: var(--ghost);
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: var(--blue-ribbon);
+    transition: color 0.5s linear;
+}
+#active{
+    color: var(--blue-ribbon);
+}
+/***main***/
+
+/*intro*/
+#intro{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.intro-container{
+    display: flex;
+    flex-direction: row;
+}
+#intro-box1{
+    width: 45%;
+}
+#intro-box2{
+    width: 55%;
+}
+
+/*contact*/
+#contact{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*icons*/
+.fa-brands.fa-github.fa-lg, .fa-brands.fa-java.fa-lg, .fa-brands.fa-html5.fa-lg, .fa-brands.fa-css3.fa-lg, .fa-brands.fa-js.fa-lg, .fa-solid.fa-phone.fa-lg, .fa-solid.fa-envelope.fa-lg, .fa-brands.fa-linkedin.fa-lg{
+    color: var(--blue-ribbon);
+}
+/***footer***/
+footer{
+    background-color: var(--shark);
+    text-align: center;
+    color: var(--ghost);
+}
+footer a{
+    text-decoration: none;
+    color: var(--ghost);
+    margin: 15px;
+}
