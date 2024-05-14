@@ -35,10 +35,18 @@ header{
     padding-left: 15px;
 }
 #header-box2{
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     text-align: center;
+    color: var(--shark);
+}
+#clock{
     font-family: monospace;
     font-size: 2em;
+}
+#date{
+    font-size: 1.5em;
 }
 /*navbar*/
 
@@ -116,7 +124,7 @@ header{
     text-align: center;
 }
 /*icons*/
-.fa-brands.fa-github.fa-lg, .fa-brands.fa-java.fa-lg, .fa-brands.fa-html5.fa-lg, .fa-brands.fa-css3.fa-lg, .fa-brands.fa-js.fa-lg, .fa-solid.fa-phone.fa-lg, .fa-solid.fa-envelope.fa-lg, .fa-brands.fa-linkedin.fa-lg{
+.fa-brands.fa-github.fa-lg, .fa-brands.fa-java.fa-lg, .fa-brands.fa-html5.fa-lg, .fa-brands.fa-css3.fa-lg, .fa-brands.fa-js.fa-lg, .fa-solid.fa-envelope.fa-lg, .fa-brands.fa-linkedin.fa-lg{
     color: var(--blue-ribbon);
 }
 /***footer***/
