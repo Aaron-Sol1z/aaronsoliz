@@ -109,6 +109,14 @@ header{
 #intro-box2{
     width: 55%;
 }
+#intro-box2 p{
+    text-align: left;
+}
+#intro-box2 a{
+    text-decoration: underline;
+    color: var(--shark);
+    font-style: italic;
+}
 
 /*contact*/
 #contact{
