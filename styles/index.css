@@ -11,16 +11,16 @@ Malibu: #84A4FC (light blue)
     --malibu: #84A4FC;
 }
 body{
-    
     background-color: var(--ghost);
     margin: 0;
     padding: 0;
-    font-family: century;
+    font-family:"Didact Gothic", sans-serif;
 }
 /***header***/
 header{
     background-color: var(--malibu);
     margin: 0;
+    border-bottom: 8px solid var(--blue-ribbon);
 }
 /*top banner*/
 .header-container{
@@ -92,6 +92,9 @@ header{
     color: var(--blue-ribbon);
 }
 /***main***/
+h3{
+    text-decoration: underline;
+}
 
 /*intro*/
 #intro{
@@ -101,10 +104,16 @@ header{
 }
 .intro-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 #intro-box1{
+    padding-top: 30px;
     width: 45%;
+}
+#intro-box1 img{
+    width: 80%;
+    height: auto;
 }
 #intro-box2{
     width: 55%;
@@ -114,6 +123,40 @@ header{
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+}
+#projects .project-widget{
+    border: 2px solid var(--shark);
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.project-widget a{
+    color: var(--shark);
+    text-decoration: none;
+}
+.project-widget a:hover{
+    border: 5px solid var(--blue-ribbon);
+    transition: border 0.25s linear;
+}
+.project-widget h5{
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.project-image{
+    width: 90%;
+    height: auto;
+    background-color: var(--shark);
+    border: 2px solid var(--blue-ribbon);
+    border-top: none;
+}
+#project-skills{
+    border-top: 1px solid var(--shark);
+    text-align: center;
+}
+#project-skills ul{
+    display: inline-block;
+    text-align: left;
 }
 /*skills*/
 #skills{
@@ -133,11 +176,18 @@ header{
 }
 #skills-box2{
     width: 25%;
+}
+#tech-stack{
     border: 3px solid var(--shark);
     border-radius: 20px;
-}
-#skills-box2 h4{
     text-align: center;
+}
+#tech-stack h4{
+    margin-bottom: 0px;
+}
+#tech-stack ul{
+    display: inline-block;
+    text-align: left;
 }
 /*education*/
 #education{
@@ -151,9 +201,14 @@ header{
 }
 #education-box1{
     width: 50%;
+    align-content: center;
 }
 #education-box2{
     width: 50%;
+}
+#education-box2 li{
+    text-align: left;
+    padding-top: 5px;
 }
 /*certificates*/
 .certificates-container{
@@ -166,6 +221,10 @@ header{
 #certificates-box2{
     width: 50%;
 }
+#certificates-box2 li{
+    text-align: left;
+    padding-top: 5px;
+}
 /*contact*/
 #contact{
     text-align: center;
@@ -173,17 +232,28 @@ header{
     padding-right: 15px;
 }
 /*icons*/
-.fa-brands.fa-github.fa-lg, .fa-brands.fa-java.fa-lg, .fa-brands.fa-html5.fa-lg, .fa-brands.fa-css3.fa-lg, .fa-brands.fa-js.fa-lg, .fa-solid.fa-envelope.fa-lg, .fa-brands.fa-linkedin.fa-lg{
+.fa-brands.fa-github.fa-lg, .fa-brands.fa-java.fa-lg, .fa-sharp.fa-solid.fa-c.fa-lg, .fa-brands.fa-html5.fa-lg, .fa-brands.fa-css3.fa-lg, .fa-brands.fa-js.fa-lg, .fa-solid.fa-database.fa-lg, .fa-solid.fa-envelope.fa-lg, .fa-brands.fa-linkedin.fa-lg{
     color: var(--blue-ribbon);
 }
 /***footer***/
 footer{
+    border-top: 8px solid var(--blue-ribbon);
+    min-height: 50px;
+    color: var(--ghost);
     background-color: var(--shark);
     text-align: center;
+    position: bottom;
+    
+}
+footer .contact{
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+footer .contact #contact-header{
+    text-decoration: underline var(--blue-ribbon);
     color: var(--ghost);
 }
-footer a{
-    text-decoration: none;
-    color: var(--ghost);
-    margin: 15px;
+footer p{
+    margin-bottom: 0;
 }

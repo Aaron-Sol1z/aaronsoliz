@@ -14,6 +14,9 @@ function updateDate(){
     const today = new Date();
     let dayOfWeek = today.getDay();
     switch(dayOfWeek){
+        case 0:
+            dayOfWeek = "Sunday";
+            break;
         case 1:
             dayOfWeek = "Monday";
             break;
@@ -31,9 +34,6 @@ function updateDate(){
             break;
         case 6:
             dayOfWeek = "Saturday";
-            break;
-        case 7:
-            dayOfWeek = "Sunday";
             break;
         default:
             dayOfWeek = "?";
