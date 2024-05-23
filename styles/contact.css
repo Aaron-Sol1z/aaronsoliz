@@ -92,7 +92,9 @@ header{
     color: var(--blue-ribbon);
 }
 /***main***/
-
+h3{
+    text-decoration: underline;
+}
 .greeting{
     margin-left: 40px;
     margin-right: 40px;

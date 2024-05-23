@@ -159,6 +159,7 @@ h3{
     text-align: left;
 }
 /*skills*/
+/*
 #skills{
     justify-content: center;
     padding-left: 15px;
@@ -188,6 +189,32 @@ h3{
 #tech-stack ul{
     display: inline-block;
     text-align: left;
+}
+*/
+/*FROM PROJECTS.CSS*/
+#skills{
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#skills h3{
+    text-align: center;
+    text-decoration: underline;
+}
+.tech-stack{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tech-stack p{
+    border: 2px solid var(--shark);
+    border-radius: 5px;
+}
+.tech-stack #tech{
+    padding: 5px;
 }
 /*education*/
 #education{

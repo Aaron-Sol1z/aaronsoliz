@@ -92,7 +92,9 @@ header{
     color: var(--blue-ribbon);
 }
 /***main***/
-
+h2, h3{
+    text-decoration: underline;
+}
 /*intro*/
 #intro{
     text-align: center;

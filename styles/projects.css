@@ -92,12 +92,51 @@ header{
     color: var(--blue-ribbon);
 }
 /***main***/
-
+main h1{
+    margin-left: 15px;
+}
+h3{
+    text-decoration: underline;
+}
 /*projects*/
 #projects{
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+}
+#projects .project-widget{
+    border: 2px solid var(--shark);
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.project-widget a{
+    color: var(--shark);
+    text-decoration: none;
+}
+.project-widget a:hover{
+    border: 5px solid var(--blue-ribbon);
+    transition: border 0.25s linear;
+}
+.project-widget h5{
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.project-image{
+    width: 90%;
+    height: auto;
+    background-color: var(--shark);
+    border: 2px solid var(--blue-ribbon);
+    border-top: none;
+}
+#project-skills{
+    border-top: 1px solid var(--shark);
+    text-align: center;
+}
+#project-skills ul{
+    display: inline-block;
+    text-align: left;
 }
 /*skills*/
 #skills{
@@ -117,14 +156,21 @@ header{
 }
 #skills-box2{
     width: 25%;
+}
+#tech-stack{
     border: 3px solid var(--shark);
     border-radius: 20px;
-}
-#skills-box2 h4{
     text-align: center;
 }
+#tech-stack h4{
+    margin-bottom: 0px;
+}
+#tech-stack ul{
+    display: inline-block;
+    text-align: left;
+}
 /*icons*/
-.fa-brands.fa-github.fa-lg, .fa-brands.fa-java.fa-lg, .fa-brands.fa-html5.fa-lg, .fa-brands.fa-css3.fa-lg, .fa-brands.fa-js.fa-lg, .fa-solid.fa-envelope.fa-lg, .fa-brands.fa-linkedin.fa-lg{
+.fa-brands.fa-github.fa-lg, .fa-brands.fa-java.fa-lg, .fa-sharp.fa-solid.fa-c.fa-lg, .fa-brands.fa-html5.fa-lg, .fa-brands.fa-css3.fa-lg, .fa-brands.fa-js.fa-lg, .fa-solid.fa-database.fa-lg, .fa-solid.fa-envelope.fa-lg, .fa-brands.fa-linkedin.fa-lg{
     color: var(--blue-ribbon);
 }
 /***footer***/
@@ -149,15 +195,3 @@ footer .contact #contact-header{
 footer p{
     margin-bottom: 0;
 }
-/*
-footer{
-    background-color: var(--shark);
-    text-align: center;
-    color: var(--ghost);
-}
-footer a{
-    text-decoration: none;
-    color: var(--ghost);
-    margin: 15px;
-}
-*/
