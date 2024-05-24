@@ -1,14 +1,14 @@
 /*Color schemes
-Blue Ribbon: #1463F3 (royal blue)
-Shark: #1D2023 (black)
+Blue Ribbon: #145AF7 (royal blue)
+Charcoal: #4C4A4A (black)
 Ghost: #CCD0D8 (gray)
-Malibu: #84A4FC (light blue)
+Mint: #3CE8B1 (green)
 */
 :root{
-    --blue-ribbon: #1463F3;
-    --shark: #1D2023;
-    --ghost: #CCD0D8;
-    --malibu: #84A4FC;
+    --blue-ribbon: #145AF7;
+    --charcoal: #4C4A4A;
+    --ghost: #E7EFEC;
+    --mint: #3CE8B1;
 }
 body{
     background-color: var(--ghost);
@@ -18,7 +18,7 @@ body{
 }
 /***header***/
 header{
-    background-color: var(--malibu);
+    background-color: var(--mint);
     margin: 0;
     border-bottom: 8px solid var(--blue-ribbon);
 }
@@ -39,7 +39,7 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    color: var(--shark);
+    color: var(--charcoal);
 }
 #clock{
     font-family: monospace;
@@ -51,7 +51,7 @@ header{
 /*navbar*/
 
 .navbar-container{
-    background-color: var(--shark);
+    background-color: var(--charcoal);
     height: 70px;
 }
 .navbar{
@@ -116,7 +116,7 @@ h2, h3{
 }
 #intro-box2 a{
     text-decoration: underline;
-    color: var(--shark);
+    color: var(--charcoal);
     font-style: italic;
 }
 
@@ -135,7 +135,7 @@ footer{
     border-top: 8px solid var(--blue-ribbon);
     min-height: 50px;
     color: var(--ghost);
-    background-color: var(--shark);
+    background-color: var(--charcoal);
     text-align: center;
     position: bottom;
     
