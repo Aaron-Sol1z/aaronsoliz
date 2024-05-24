@@ -108,6 +108,10 @@ h2, h3{
 #intro-box1{
     width: 45%;
 }
+#intro-box1 img{
+    max-width: 60%;
+    max-height: 60%;
+}
 #intro-box2{
     width: 55%;
 }
