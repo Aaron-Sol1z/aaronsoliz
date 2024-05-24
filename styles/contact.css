@@ -92,23 +92,41 @@ header{
     color: var(--blue-ribbon);
 }
 /***main***/
+main h1{
+    padding: 15px;
+}
 h3{
     text-decoration: underline;
 }
 .greeting{
     margin-left: 40px;
     margin-right: 40px;
-    border: 2px solid var(--blue-ribbon);
-    border-radius: 20px;
 }
 .greeting p{
     padding: 10px;
 }
 /*contact*/
-#contact{
+.contact-container{
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contact-widget{
+    width: 50%;
+    border: 5px solid var(--shark);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px var(--shark);
+    justify-content: center;
+}
+.contact-widget a{
+    padding-bottom: 10px;
+}
+.contact-title{
+    font-weight: bold;
+    text-decoration: underline var(--blue-ribbon);
 }
 /*icons*/
 .fa-brands.fa-github.fa-lg, .fa-brands.fa-java.fa-lg, .fa-brands.fa-html5.fa-lg, .fa-brands.fa-css3.fa-lg, .fa-brands.fa-js.fa-lg, .fa-solid.fa-envelope.fa-lg, .fa-brands.fa-linkedin.fa-lg{
