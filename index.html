@@ -27,7 +27,15 @@
             </div>
             <!--Navbar-->
             <div class="navbar-container">
-                <nav class="navbar">
+                <nav class="desktop-menu">
+                    <ul>
+                        <li class="menu-box"><a href="#" id="active" title="Home">Home</a></li>
+                        <li class="menu-box"><a href="pages/about.html" title="About">About</a></li>
+                        <li class="menu-box"><a href="pages/projects.html" title="Projects">Projects</a></li>
+                        <li class="menu-box"><a href="pages/contact.html" title="Contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="mobile-menu">
                     <ul>
                         <li class="menu-box"><a href="#" id="active" title="Home">Home</a></li>
                         <li class="menu-box"><a href="pages/about.html" title="About">About</a></li>
@@ -61,16 +69,20 @@
                             <button type="submit" title="Try it out">Try it out</button>
                         </form>
                     </section>
-                    <h5>About this project</h5>
-                    <p>
-                        Search for details about a movie or series and read about them in a clean display.
-                        This application communicates with the Open Movie Database (OMDb), a web api that fetches data about a movie or series.
-                    </p>
+                    <section class="project-about">
+                        <h5>About this project</h5>
+                        <p>
+                            Search for details about a movie or series and read about them in a clean display.
+                            This application communicates with the Open Movie Database (OMDb), a web api that fetches data about a movie or series.
+                        </p>
+                    </section>
                     <section class="project-tech-used">
                         <h5>Tech used</h5>
-                        <i class="fa-brands fa-html5 fa-2xl" title="HTML5"></i>
-                        <i class="fa-brands fa-css3 fa-2xl" title="CSS"></i>
-                        <i class="fa-brands fa-js fa-2xl" title="JavaScript"></i>
+                        <div class="tech-items">
+                            <p><i class="fa-brands fa-html5 fa-2xl" title="HTML5"></i></p>
+                            <p><i class="fa-brands fa-css3 fa-2xl" title="CSS"></i></p>
+                            <p><i class="fa-brands fa-js fa-2xl" title="JavaScript"></i></p>
+                        </div>
                     </section>
                     <section class="project-skills">
                         <h5>Skills learned</h5>
@@ -80,6 +92,8 @@
                             <li>Element selectors</li>
                             <li>String manipulation</li>
                         </ul>
+                    </section>
+                    <section class="project-repo">
                         <h5>Check out the code on the repository</h5>
                         <form class="see-repository" action="https://github.com/Aaron-Sol1z/movie-search">
                             <button type="submit" title="See repository"><i class="fa-solid fa-code fa-xl"></i></button>
@@ -90,16 +104,20 @@
                 <h5>Portfolio website</h5>
                 <div class="project-widget">
                     <img class="project-image" src="./images/project-images/portfolio-website-banner.png" title="Portfolio website" alt="Portfolio website">
-                    <h5>About this project</h5>
-                    <p>
-                        The front-end design of this portfolio site was made by me.
-                        Here, you can learn more about me, read about my projects and skills, and find contact information.
-                    </p>
+                    <section class="project-about">
+                        <h5>About this project</h5>
+                        <p>
+                            The front-end design of this portfolio site was made by me.
+                            Here, you can learn more about me, read about my projects and skills, and find contact information.
+                        </p>
+                    </section>
                     <section class="project-tech-used">
                         <h5>Tech used</h5>
-                        <i class="fa-brands fa-html5 fa-2xl" title="HTML5"></i>
-                        <i class="fa-brands fa-css3 fa-2xl" title="CSS"></i>
-                        <i class="fa-brands fa-js fa-2xl" title="JavaScript"></i>
+                        <div class="tech-items">
+                            <p><i class="fa-brands fa-html5 fa-2xl" title="HTML5"></i></p>
+                            <p><i class="fa-brands fa-css3 fa-2xl" title="CSS"></i></p>
+                            <p><i class="fa-brands fa-js fa-2xl" title="JavaScript"></i></p>
+                        </div>
                     </section>
                     <section class="project-skills">
                         <h5>Skills learned</h5>
@@ -109,6 +127,8 @@
                             <li>Page design and layout</li>
                             <li>Tag classes and ids</li>
                         </ul>
+                    </section>
+                    <section class="project-repo">
                         <h5>Check out the code on the repository</h5>
                         <form class="see-repository" action="https://github.com/Aaron-Sol1z/aaronsoliz">
                             <button type="submit" title="See repository"><i class="fa-solid fa-code fa-xl"></i></button>
@@ -122,12 +142,12 @@
             <div id="skills">
                 <h3>SKILLS</h3>
                 <div class="tech-stack">
-                    <p id="tech" title="HTML5"><i class="fa-brands fa-html5 fa-lg"></i> HTML5</p>
-                    <p id="tech" title="CSS"><i class="fa-brands fa-css3 fa-lg"></i> CSS</p>
-                    <p id="tech" title="JavaScript"><i class="fa-brands fa-js fa-lg"></i> JavaScript</p>
-                    <p id="tech" title="Java"><i class="fa-brands fa-java fa-lg"></i> Java</p>
-                    <p id="tech" title="C"><i class="fa-sharp fa-solid fa-c fa-lg"></i> C</p>
-                    <p id="tech" title="SQL/NoSQL"><i class="fa-solid fa-database fa-lg"></i> SQL/NoSQL</p>
+                    <p class="tech" title="HTML5"><i class="fa-brands fa-html5 fa-lg"></i> HTML5</p>
+                    <p class="tech" title="CSS"><i class="fa-brands fa-css3 fa-lg"></i> CSS</p>
+                    <p class="tech" title="JavaScript"><i class="fa-brands fa-js fa-lg"></i> JavaScript</p>
+                    <p class="tech" title="Java"><i class="fa-brands fa-java fa-lg"></i> Java</p>
+                    <p class="tech" title="C"><i class="fa-sharp fa-solid fa-c fa-lg"></i> C</p>
+                    <p class="tech" title="SQL/NoSQL"><i class="fa-solid fa-database fa-lg"></i> SQL/NoSQL</p>
                 </div>
             </div>
             <!--education-->
